@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0" />
+    <title>My Passwords</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="signIn_Menu" style="display:none">
+        <p id="Main Password">Enter your password</p>
+        <textarea id="txtb_password"></textarea>
+        <button id="btn_sign_in">sign in</button>
+        <script src="index.js"></script>
+    </div>
+    <div id="non_login_message" style="display:none">
+        <p id="Message">This is not a loggin page!</p>
+    </div>
+    <div id="main_Menu" style="display:none">
+        <p id="message_new_user">New User?</p>
+        <button id="btn_signUp">Sign Up</button>
+        <p id="message_old_user">Already a user?</p>
+        <button id="btn_signIn">Sign in</button>
+    </div>
+    <div id="SignUp_Menu" style="display:none">
+        <p id="message">Enter a new password</p>
+        <textarea id="txtb_pwd"></textarea>
+        <button id="btn_save">Save</button>
+        <button id="btn_cancel0">Cancel</button>
+    </div>
+    <div id="menu" style="display:none">
+        <button id="btn_fill">Autofill User and Password</button>
+        <button id="btn_generate">Password Generation</button>
+        <button id="btn_save0">Save User and Password</button>
+    </div>
+    <div id="generate" style="display:none">
+        <p id="usr1">User Name:</p>
+        <textarea id="txtb_usr1"></textarea>
+        <p id="pwd1">Generated Password:</p>
+        <textarea id="txtb_pwd1"></textarea>
+        <button id="btn_save1">save</button>
+    </div>
+    <div id="save" style="display:none">
+        <p id="usr2">User Name:</p>
+        <textarea id="txtb_usr2"></textarea>
+        <p id="pwd2">Password:</p>
+        <textarea id="txtb_pwd2"></textarea>
+        <button id="btn_save2">save</button>
+    </div>
+    <div id="confirm_update" style="display:none">
+        <p id="msg">A password for this website already exhists.</p>
+        <p id="msg">Press OK to update this password or cancel to keep the previous.</p>
+        <button id="btn_ok">OK</button>
+        <button id="btn_cancel">Cancel</button>
+    </div>
+
+</body>
+   
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "My Passwords",
+  "description": "automatically create, save and autofill your passwords",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "fav.png"
+  },
+  "host_permissions": ["<all_urls>" ],
+  "permissions": [ "tabs", "storage", "scripting" ],
+  "content_scripts": [
+    {
+      "matches": [ "*://*/*" ],
+      "js": ["index.js"]
+    }
+  ]
+
+}
